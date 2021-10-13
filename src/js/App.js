@@ -1,28 +1,12 @@
 import '../styles/App.css';
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Skills from './components/Skills'
-
+import Menubar from './components/Menubar'
 
 function App() {
   return (
     <div className="App">
-        {/* navbar */}
-        <Navbar />
-
-        {/* hero */}
-        <Hero />
-
-        {/* skills */}
-        <Skills />
-
-        {/* projects */}
-
-        {/* contact */}
-        {/* footer */}
+        <Menubar />
     </div>
   );
 }
-
 
 export default App;

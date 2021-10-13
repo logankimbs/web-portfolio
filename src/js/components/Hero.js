@@ -4,13 +4,6 @@ class Hero extends React.Component {
     render() {
         return (
             <section className="hero" id="about">
-                <img
-                    src="../../icons/fish-01.svg"
-                    alt="fish"
-                    loading="lazy"
-                    className="hero-img"
-                />
-                
                 <div className="bio animate__animated animate__shakeX">
                     <h2 className="bio-title">About Me</h2>
                     <p className="bio-text">
