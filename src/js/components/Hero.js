@@ -1,19 +1,18 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container'
 
 class Hero extends React.Component {
     render() {
         return (
-            <section className="hero" id="about">
-                <div className="bio animate__animated animate__shakeX">
-                    <h2 className="bio-title">About Me</h2>
-                    <p className="bio-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-                    dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-                    inventore tempore minus nemo, iste ullam illo laboriosam maiores
-                    repudiandae quos!
-                    </p>
+            <Container>
+                <div className="hero-about">
+                    <h1>About</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </div>
-            </section>
+            </Container>
         )
     }
 }

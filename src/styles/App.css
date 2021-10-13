@@ -18,3 +18,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hero-picture {
+    width: 100%;
+}
+
+.hero-about {
+    width: 100%;
+}

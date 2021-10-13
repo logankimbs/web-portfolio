@@ -6,8 +6,8 @@ import Nav from 'react-bootstrap/Nav'
 class Menubar extends React.Component {
     render() {
         return (
-            <Navbar fixed="top">
-                <Container fluid>
+            <Navbar>
+                <Container>
                     <Navbar.Brand>Logan Kimball</Navbar.Brand>
                     <Nav>
                         <Nav.Item>
